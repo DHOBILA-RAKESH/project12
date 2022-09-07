@@ -1,0 +1,56 @@
+*{
+    font-family: sans-serif;
+}
+
+
+.food{
+    color: #000;
+    font-weight: 700;
+    text-align: center;
+    position: relative;
+    top: -50px;
+    left: 33px;
+}   
+.card>.card-header>h1{
+    line-height: 20px;
+
+}
+#rk{
+    border-radius: 50px;
+}
+#car{
+    height: 83px;
+    /* background-color: rgb(197, 101, 197); */
+}
+#fd{
+    color: white;
+    position: relative;
+    left: 500px;
+    top: -75px;
+}
+
+marquee{
+    /* background-color: ivory; */
+    /* border: 1px solid black; */
+    HEIGHT: 60PX;
+    WIDTH: 100%;
+    LINE-HEIGHT: 65PX;
+    BOX-SHADOW: 1PX 1PX 2PX 1PX black;
+}
+.card:hover{
+    box-shadow: 0px 0px 0px 2px black;
+    
+
+}
+.bg{
+    background-image: url(rk.jpg);
+}
+.mks{
+    float: right;
+    margin: 4px 5px;
+}
+#fix{
+    position:sticky;
+    top: 0px;
+    z-index: 1;
+}
